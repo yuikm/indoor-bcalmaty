@@ -1,0 +1,162 @@
+{
+  "objects": [
+    {
+      "id": "a1b2",
+      "categoryId": "a191",
+      "name": "Центральный лифт",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "b2c3",
+      "categoryId": null,
+      "name": "Охрана",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "c3d4",
+      "categoryId": null,
+      "name": "Тамбур",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "d4e5",
+      "categoryId": "d21e",
+      "name": "Уборная-1",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "e5f6",
+      "categoryId": "d21e",
+      "name": "MediaMarkt",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "g7h8",
+      "categoryId": "d21e",
+      "name": "Rolex",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "j0k1",
+      "categoryId": "87b0",
+      "name": "Zara",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "k1l2",
+      "categoryId": "a191",
+      "name": "McShark",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "l2m3",
+      "categoryId": "87b0",
+      "name": "Nike",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "m3n4",
+      "categoryId": "87b0",
+      "name": "Adidas",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "p6q7",
+      "categoryId": "87b0",
+      "name": "H&M",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "r8s9",
+      "categoryId": null,
+      "name": "Starbucks",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "s9t0",
+      "categoryId": "52f1",
+      "name": "KFC",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "t0u1",
+      "categoryId": "87b0",
+      "name": "Victoria's Secret",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "u1v2",
+      "categoryId": "d21e",
+      "name": "Pandora",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "v2w3",
+      "categoryId": "87b0",
+      "name": "Foot Locker",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "w3x4",
+      "categoryId": "52f1",
+      "name": "Pharmacy",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "x4y5",
+      "categoryId": "a191",
+      "name": "GameStop",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "a7b8",
+      "categoryId": "52f1",
+      "name": "Sephora",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "c9d0",
+      "categoryId": null,
+      "name": "McDonald's",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "ab12",
+      "categoryId": "17b0",
+      "name": "Уборная-2",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "ac13",
+      "categoryId": null,
+      "name": "Лифт",
+      "desc": "Описание описание"
+    }
+  ],
+  "categories": [
+    {
+      "id": "52f1",
+      "name": "Retail"
+    },
+    {
+      "id": "16be",
+      "name": "Health & Beauty"
+    },
+    {
+      "id": "d21e",
+      "name": "Luxury Goods"
+    },
+    {
+      "id": "a191",
+      "name": "Electronics"
+    },
+    {
+      "id": "87b0",
+      "name": "Fashion"
+    },
+    {
+      "id": "17b0",
+      "name": "Sanitary"
+    }
+  ]
+}
