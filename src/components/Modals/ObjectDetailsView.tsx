@@ -39,7 +39,7 @@ function ObjectDetailsView({
             onClick={handleEditClick}
             autoFocus={false}
           >
-            Edit
+            Редактировать
           </button>
         )}
       </DialogBody>

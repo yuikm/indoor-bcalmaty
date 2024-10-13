@@ -55,7 +55,7 @@ function ObjectEditView({
               value="new_category"
               onClick={() => setNewCategoryModalOpen(true)}
             >
-              + Neue Kategorie
+              + Новая категория
             </option>
           </select>
 
@@ -88,7 +88,7 @@ function ObjectEditView({
           className="mt-4 text-green-500 cursor-pointer"
           onClick={handleSaveChanges}
         >
-          Änderungen speichern
+          Сохранить
         </button>
       </DialogBody>
     </>

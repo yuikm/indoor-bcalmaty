@@ -22,13 +22,13 @@ const NewCategoryModal: React.FC<NewCategoryModalProps> = ({
       handler={() => setNewCategoryModalOpen(false)}
     >
       <DialogHeader>
-        <p>Create New Category</p>
+        <p>Добавить новую категорию</p>
       </DialogHeader>
       <DialogBody>
         <input
           type="text"
           className="w-full mb-2 p-2 border border-gray-300 rounded"
-          placeholder="New Category Name"
+          placeholder="Название категории"
           value={newCategoryName}
           onChange={(e) => setNewCategoryName(e.target.value)}
         />
@@ -36,7 +36,7 @@ const NewCategoryModal: React.FC<NewCategoryModalProps> = ({
           className="mt-4 text-green-500 cursor-pointer"
           onClick={handleSaveNewCategory}
         >
-          Save New Category
+          Сохранить
         </button>
       </DialogBody>
     </Dialog>

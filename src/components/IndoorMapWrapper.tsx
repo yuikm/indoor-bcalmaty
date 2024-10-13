@@ -31,7 +31,7 @@ function IndoorMapWrapper() {
         setObject(selectedObject);
         setModalOpen(true);
       } else {
-        toast.error("Object not found");
+        toast.error("Арендатор не найден");
       }
     }
   }
