@@ -5,6 +5,7 @@ import { isDesktop } from "react-device-detect";
 import EditPositionButton from "./EditPositionButton";
 import DesktopRouteDetails from "./DesktopRouteDetails";
 import SearchBar from "./SearchBar";
+import ChangeFloor from "./ChangeFloor";
 
 function Toolbar() {
   const { navigation } = useContext(NavigationContext) as NavigationContextType;
@@ -12,6 +13,7 @@ function Toolbar() {
     <div className="flex space-x-1 mb-4 h-12 relative">
       <SearchBar />
       <EditPositionButton />
+      <ChangeFloor />
       {navigation.end && isDesktop && <DesktopRouteDetails />}
     </div>
   );
