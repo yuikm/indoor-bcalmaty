@@ -1,4 +1,4 @@
-import { MapDataContextType, ObjectItem } from "@/utils/types";
+import { ObjectItem } from "@/utils/types";
 import { Dialog } from "../ui/Dialog";
 import ObjectDetailsView from "./ObjectDetailsView";
 
