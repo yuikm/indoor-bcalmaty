@@ -9,9 +9,11 @@ function useMapData() {
 
   const fetchData = async () => {
     try {
-      const objectsData = await getObjects();
-      const categoriesData = await getCategories();
-      // Add categoryName to each object
+      const objectsResponse = await getObjects();
+      const categoriesResponse = await getCategories();
+      const objectsData = objectsResponse.record.objects;
+      const categoriesData = categoriesResponse.record.categories; // Access categories
+
       objectsData.forEach((obj) => {
         obj.categoryName = categoriesData.find(
           (cat) => cat.id === obj.categoryId
