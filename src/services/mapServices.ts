@@ -1,12 +1,10 @@
 import { Beacon, Category, ObjectItem } from "@/utils/types";
 import apiService from "./apiService";
 
-export async function getObjects(): Promise<{
-  record: { objects: ObjectItem[] };
-}> {
+export async function getObjects(): Promise<{ objects: ObjectItem[] }> {
   try {
-    const response = await apiService.get("/");
-    return response.data; // Return the full response including `record`
+    const response = await apiService.get(""); // Adjust the endpoint if necessary
+    return response.data; // Return the full response (should contain `objects`)
   } catch (error) {
     console.error("Error fetching objects:", error);
     throw error;
@@ -23,14 +21,12 @@ export async function getObjectById(id: string): Promise<ObjectItem> {
   }
 }
 
-export async function getCategories(): Promise<{
-  record: { categories: Category[] };
-}> {
+export async function getCategories(): Promise<{ categories: Category[] }> {
   try {
-    const response = await apiService.get("/");
-    return response.data; // Return the full response including `record`
+    const response = await apiService.get(""); // Adjust the endpoint if necessary
+    return response.data; // Return the full response (should contain `objects`)
   } catch (error) {
-    console.error("Error fetching categories:", error);
+    console.error("Error fetching objects:", error);
     throw error;
   }
 }
