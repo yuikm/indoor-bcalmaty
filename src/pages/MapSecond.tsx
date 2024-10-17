@@ -16,7 +16,7 @@ export const NavigationContext = createContext<NavigationContextType | null>(
   null
 );
 export const MapDataContext = createContext<MapDataContextType | null>(null);
-function Map() {
+function MapSecond() {
   let [searchParams, setSearchParams] = useSearchParams();
   const defaultPosition = "v1";
   const startPosition = searchParams.get("position") || defaultPosition;
@@ -46,6 +46,9 @@ function Map() {
             className={`flex w-full ${isDesktop && "-ml-96"} justify-center flex-grow flex-col md:p-10 p-2 transition-all duration-150 ease-in lg:ml-0`}
           >
             <Toolbar />
+            <div className="center w-full h-full">
+              <IndoorMapWrapper />
+            </div>
           </main>
           {navigation.end && isMobile && <MobileRouteDetails />}
         </div>
@@ -54,4 +57,4 @@ function Map() {
   );
 }
 
-export default Map;
+export default MapSecond;

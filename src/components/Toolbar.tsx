@@ -1,20 +1,50 @@
+import { useState, useContext } from "react";
 import { NavigationContext } from "@/pages/Map";
 import { NavigationContextType } from "@/utils/types";
-import { useContext } from "react";
 import { isDesktop } from "react-device-detect";
 import EditPositionButton from "./EditPositionButton";
 import DesktopRouteDetails from "./DesktopRouteDetails";
 import SearchBar from "./SearchBar";
-import ChangeFloor from "./ChangeFloor";
+import IndoorMapWrapperFirst from "./IndoorMapWrapper";
+import IndoorMapWrapperSecond from "./IndoorMapWrapperSecond";
 
 function Toolbar() {
   const { navigation } = useContext(NavigationContext) as NavigationContextType;
+
+  const [selectedFloor, setSelectedFloor] = useState(1);
+
+  const floorComponents = [
+    <IndoorMapWrapperFirst />,
+    <IndoorMapWrapperSecond />,
+  ];
+
+  const handleFloorChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    setSelectedFloor(parseInt(event.target.value));
+  };
+
   return (
-    <div className="flex space-x-1 mb-4 h-12 relative">
-      <SearchBar />
-      <EditPositionButton />
-      <ChangeFloor />
-      {navigation.end && isDesktop && <DesktopRouteDetails />}
+    <div className="w-full h-full">
+      <div className="flex space-x-1 mb-4 h-12 relative">
+        <SearchBar />
+        <EditPositionButton />
+        {navigation.end && isDesktop && <DesktopRouteDetails />}
+        {/* Dropdown to select floor */}
+        <select
+          value={selectedFloor}
+          onChange={handleFloorChange}
+          className="border rounded px-2 py-1"
+        >
+          {Array.from({ length: 7 }, (_, i) => (
+            <option key={i + 1} value={i + 1}>
+              {`Floor ${i + 1}`}
+            </option>
+          ))}
+        </select>
+      </div>
+      <div className="center w-full h-full">
+        {/* Render the selected floor's component */}
+        {floorComponents[selectedFloor - 1]}
+      </div>
     </div>
   );
 }

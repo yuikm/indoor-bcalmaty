@@ -1,10 +1,10 @@
-import floorplan from "@/assets/img/1-floor.svg";
+import floorplan from "@/assets/img/backup_map.svg";
 import { ReactNode } from "react";
-interface MapBackgroundProps {
+interface MapBackgroundSecondProps {
   children: ReactNode;
 }
 
-function MapBackground({ children }: MapBackgroundProps) {
+function MapBackgroundSecond({ children }: MapBackgroundSecondProps) {
   return (
     <svg
       viewBox="0.469 0.006 1461.95 1149.136"
@@ -16,4 +16,4 @@ function MapBackground({ children }: MapBackgroundProps) {
   );
 }
 
-export default MapBackground;
+export default MapBackgroundSecond;
