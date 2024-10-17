@@ -8,13 +8,17 @@ import {
   NavigationContextType,
   ObjectItem,
 } from "../utils/types";
-import { MapBackgroundSecond, Paths, Positions, Objects } from "./IndoorMap";
+import {
+  MapBackgroundSecond,
+  Paths,
+  Positions,
+  ObjectsSecond,
+} from "./IndoorMap";
 
 import Controls from "./MapControls";
 import ObjectDetailsModal from "./Modals/ObjectDetailsModal";
 import { navigateToObject } from "@/utils/navigationHelper";
 import { toast } from "react-toastify";
-import ObjectsSecond from "./IndoorMap/ObjectsSecond";
 
 function IndoorMapWrapperSecond() {
   const [modalOpen, setModalOpen] = useState(false);

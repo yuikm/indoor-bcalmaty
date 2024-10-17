@@ -1,4 +1,3 @@
-import IndoorMapWrapper from "@/components/IndoorMapWrapper";
 import MobileRouteDetails from "@/components/MobileRouteDetails";
 import Toolbar from "@/components/Toolbar";
 import useMapData from "@/hooks/useMapData";
