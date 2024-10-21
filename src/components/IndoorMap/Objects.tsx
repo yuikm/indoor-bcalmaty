@@ -8,145 +8,139 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
       <path
         id="Adidas"
         className={`${className} object`}
-        d="M201.6 436.6v-67.2H98.4v67.9h103.2v-.7z"
+        d="M419.7 419.3v-68.8H313V420h106.7v-.7z"
         onClick={handleObjectClick}
       />
       <path
         id="Nike"
         className={`${className} object`}
-        d="M201.6 369.4v67.2h214v-163h-284v95.8h70z"
+        d="M550.3 520.4v-71H456v71H550.3z"
         onClick={handleObjectClick}
       />
       <path
         id="McShark"
         className={`${className} object`}
-        d="M504.2 273.6v266.2h269V273.6h-269z"
+        d="M419.7 350.5V420h221.4V248.7H347.2v101.7h72.4Z"
         onClick={handleObjectClick}
       />
       <path
         id="Zara"
         className={`${className} object`}
-        d="M879.6 530.6h98v-257H773.2v266.2h106.4v-9.2z"
+        d="M550.3 492h61.1v-42.6h-61.1V492z"
         onClick={handleObjectClick}
       />
       <path
         id="Primark"
         className={`${className} object`}
-        d="M977.6 805.5h343.2v92.9H1431V273.6H977.6v531.9z"
+        d="M565.8 520.4h45.6V492h-61.1v28.4h15.5z"
         onClick={handleObjectClick}
       />
       <path
         id="Svarovski"
         className={`${className} object`}
-        d="M977.6 805.5v92.9h343.2v-92.9H977.6z"
+        d="M733.2 608.5v-52.3h-87.4v52.3h87.4z"
         onClick={handleObjectClick}
       />
       <path
         id="H&M"
         className={`${className} object`}
-        d="M327.8 533.6V465h-91.2v68.6h91.2z"
+        d="M733.2 661.7v-52.3h-87.4v52.3h87.4z"
         onClick={handleObjectClick}
       />
       <path
         id="MediaMarkt"
         className={`${className} object`}
-        d="M327.8 506.2h59V465h-59v41.2z"
+        d="M732.9 248.7v278.1h278.3V248.7H732.9z"
         onClick={handleObjectClick}
       />
       <path
         id="Sephora"
         className={`${className} object`}
-        d="M342.8 533.6h44v-27.4h-59v27.4h15z"
+        d="M1121.3 517.2h101.4V248.7h-211.5v278.1h110.1v-9.6z"
         onClick={handleObjectClick}
       />
       <path
         id="Центральный лифт"
         className={`${className} object`}
-        d="M346.3 609.1v-75.5h-60.6v75.5h60.6z"
+        d="M1086.1 698.5V556.2h-74.8v142.3h74.8z"
         onClick={handleObjectClick}
       />
       <path
         id="Уборная-1"
         className={`${className} object`}
-        d="M386.8 656.2V533.6h-44v122.6h44z"
+        d="M1120.8 728v173.1h101.9V728h-101.9z"
         onClick={handleObjectClick}
       />
       <path
         id="Starbucks"
         className={`${className} object`}
-        d="M504.5 667.8v-99.6h-84.4v99.6h84.4z"
+        d="M1011.3 698.5V556.2h-77.4v142.3h77.4z"
         onClick={handleObjectClick}
       />
       <path
         id="KFC"
         className={`${className} object`}
-        d="M698.5 705.7V568.2h-194v137.5h194z"
+        d="M933.3 728v173.1h187.5V728H933.3z"
         onClick={handleObjectClick}
       />
       <path
         id="McDonald's"
         className={`${className} object`}
-        d="M773.3 705.7V568.2h-74.8v137.5h74.8z"
+        d="M933.9 698.5V556.2H733.2v142.3h200.7z"
         onClick={handleObjectClick}
       />
       <path
         id="Rolex"
         className={`${className} object`}
-        d="M845.6 705.7V568.2h-72.3v137.5h72.3z"
+        d="M733 728v173.1h200.3V728H733z"
         onClick={handleObjectClick}
       />
       <path
         id="Уборная-2"
         className={`${className} object`}
-        d="M875.2 615.3h102.4V559H875.2v56.3z "
+        d="M465.1 689.6v210.9h181.3V689.6H465.1z"
         onClick={handleObjectClick}
       />
       <path
         id="Лифт"
         className={`${className} object`}
-        d="M875.2 661.1h102.4v-45.8H875.2v45.8z"
+        d="M465.1 689.6H347v39.6h-83.2v75.7h48.3v95.6h153V689.6z"
         onClick={handleObjectClick}
       />
       <path
         id="Тамбур"
         className={`${className} object`}
-        d="M78.1 707.3v-86H27.8v86.9h50.3v-.9z"
+        d="M411.6 657.9v-50.5h-54.7v51.1h54.7v-.6z"
         onClick={handleObjectClick}
       />
       <path
         id="Охрана"
         className={`${className} object`}
-        d="M193.7 666.5v-48.8h-52.8v49.4h52.8v-.6z"
+        d="M291.9 700.1v-89h-52V701h52v-.9z"
         onClick={handleObjectClick}
       />
       <path
         id="Victoria's Secret"
         className={`${className} object`}
-        d="M245.4 697.1H131.3v37.8H50.9v72.3h46.7v91.2h147.8V697.1z"
+        d="M611.4 647.2V520.4h-45.6v126.8h45.6z"
         onClick={handleObjectClick}
       />
       <path
         id="Pandora"
         className={`${className} object`}
-        d="M245.4 697.1v201.3h175.2V697.1H245.4z"
+        d="M569.5 598.5v-78.1h-62.7v78.1h62.7z"
         onClick={handleObjectClick}
       />
       <path
         id="Foot Locker"
         className={`${className} object`}
-        d="M504.3 734.2v164.2h193.6V734.2H504.3z"
+        d="M1116.8 652.3h105.9v-47.4h-105.9v47.4z"
         onClick={handleObjectClick}
       />
       <path
         id="Pharmacy"
         className={`${className} object`}
-        d="M697.9 734.2v164.2h181.2V734.2H697.9z"
-        onClick={handleObjectClick}
-      />
-      <path
-        id="GameStop"
-        className={`${className} object`}
-        d="M879.1 734.2v164.2h98.5V734.2h-98.5z"
+        d="M1116.8 604.9h105.9v-58.2h-105.9v58.2z"
         onClick={handleObjectClick}
       />
     </g>
