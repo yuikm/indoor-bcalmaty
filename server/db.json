@@ -1,162 +1,148 @@
 {
   "objects": [
     {
-      "id": "a1b2",
-      "categoryId": "a191",
-      "name": "Центральный лифт",
+      "id": "100",
+      "categoryId": "f1",
+      "name": "Арендатор 100",
       "desc": "Описание описание"
     },
     {
-      "id": "b2c3",
-      "categoryId": null,
+      "id": "101",
+      "categoryId": "f1",
+      "name": "Арендатор 101",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "102",
+      "categoryId": "f1",
+      "name": "Арендатор 102",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "103",
+      "categoryId": "f1",
+      "name": "Арендатор 103",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "104",
+      "categoryId": "f1",
+      "name": "Арендатор 104",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "105",
+      "categoryId": "f1",
+      "name": "Арендатор 105",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "106",
+      "categoryId": "f1",
+      "name": "Арендатор 106",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "107",
+      "categoryId": "f1",
+      "name": "Арендатор 107",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "108",
+      "categoryId": "f1",
+      "name": "Арендатор 108",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "109",
+      "categoryId": "f1",
+      "name": "Арендатор 109",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "110",
+      "categoryId": "f1",
+      "name": "Арендатор 110",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "111",
+      "categoryId": "f1",
+      "name": "Арендатор 111",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "112",
+      "categoryId": "f1",
+      "name": "Арендатор 112",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "113",
+      "categoryId": "f1",
+      "name": "Арендатор 113",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "114",
+      "categoryId": "f1",
+      "name": "Арендатор 114",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "115",
+      "categoryId": "f1",
+      "name": "Арендатор 115",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "116",
+      "categoryId": "f1",
+      "name": "Арендатор 116",
+      "desc": "Описание описание"
+    },
+    {
+      "id": "117",
+      "categoryId": "f1",
       "name": "Охрана",
       "desc": "Описание описание"
     },
     {
-      "id": "c3d4",
-      "categoryId": null,
+      "id": "118",
+      "categoryId": "f1",
       "name": "Тамбур",
       "desc": "Описание описание"
     },
     {
-      "id": "d4e5",
-      "categoryId": "d21e",
-      "name": "Уборная-1",
+      "id": "119",
+      "categoryId": "f1",
+      "name": "Лифт 1",
       "desc": "Описание описание"
     },
     {
-      "id": "e5f6",
-      "categoryId": "d21e",
-      "name": "MediaMarkt",
+      "id": "120",
+      "categoryId": "f1",
+      "name": "Лифт 2",
       "desc": "Описание описание"
     },
     {
-      "id": "g7h8",
-      "categoryId": "d21e",
-      "name": "Rolex",
+      "id": "121",
+      "categoryId": "f1",
+      "name": "Туалет 1",
       "desc": "Описание описание"
     },
     {
-      "id": "j0k1",
-      "categoryId": "87b0",
-      "name": "Zara",
-      "desc": "Описание описание"
-    },
-    {
-      "id": "k1l2",
-      "categoryId": "a191",
-      "name": "McShark",
-      "desc": "Описание описание"
-    },
-    {
-      "id": "l2m3",
-      "categoryId": "87b0",
-      "name": "Nike",
-      "desc": "Описание описание"
-    },
-    {
-      "id": "m3n4",
-      "categoryId": "87b0",
-      "name": "Adidas",
-      "desc": "Описание описание"
-    },
-    {
-      "id": "p6q7",
-      "categoryId": "87b0",
-      "name": "H&M",
-      "desc": "Описание описание"
-    },
-    {
-      "id": "r8s9",
-      "categoryId": null,
-      "name": "Starbucks",
-      "desc": "Описание описание"
-    },
-    {
-      "id": "s9t0",
-      "categoryId": "52f1",
-      "name": "KFC",
-      "desc": "Описание описание"
-    },
-    {
-      "id": "t0u1",
-      "categoryId": "87b0",
-      "name": "Victoria's Secret",
-      "desc": "Описание описание"
-    },
-    {
-      "id": "u1v2",
-      "categoryId": "d21e",
-      "name": "Pandora",
-      "desc": "Описание описание"
-    },
-    {
-      "id": "v2w3",
-      "categoryId": "87b0",
-      "name": "Foot Locker",
-      "desc": "Описание описание"
-    },
-    {
-      "id": "w3x4",
-      "categoryId": "52f1",
-      "name": "Pharmacy",
-      "desc": "Описание описание"
-    },
-    {
-      "id": "x4y5",
-      "categoryId": "a191",
-      "name": "GameStop",
-      "desc": "Описание описание"
-    },
-    {
-      "id": "a7b8",
-      "categoryId": "52f1",
-      "name": "Sephora",
-      "desc": "Описание описание"
-    },
-    {
-      "id": "c9d0",
-      "categoryId": null,
-      "name": "McDonald's",
-      "desc": "Описание описание"
-    },
-    {
-      "id": "ab12",
-      "categoryId": "17b0",
-      "name": "Уборная-2",
-      "desc": "Описание описание"
-    },
-    {
-      "id": "ac13",
-      "categoryId": null,
-      "name": "Лифт",
+      "id": "122",
+      "categoryId": "f1",
+      "name": "Туалет 2",
       "desc": "Описание описание"
     }
   ],
   "categories": [
     {
-      "id": "52f1",
-      "name": "Retail"
-    },
-    {
-      "id": "16be",
-      "name": "Health & Beauty"
-    },
-    {
-      "id": "d21e",
-      "name": "Luxury Goods"
-    },
-    {
-      "id": "a191",
-      "name": "Electronics"
-    },
-    {
-      "id": "87b0",
-      "name": "Fashion"
-    },
-    {
-      "id": "17b0",
-      "name": "Sanitary"
+      "id": "f1",
+      "name": "1 этаж"
     }
   ]
 }
