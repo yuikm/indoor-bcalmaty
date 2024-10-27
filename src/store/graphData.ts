@@ -68,8 +68,9 @@ export const graphData: GraphData = {
     { id: "v50", objectName: "Лифт 2", cx: 1169.1, cy: 652.3 },
     { id: "v51", objectName: null, cx: 1101.3, cy: 539.6 },
     { id: "v52", objectName: null, cx: 1169.7, cy: 539.6 },
-    { id: "v54", objectName: "Туалет 2", cx: 1169.7, cy: 546.7 },
     { id: "v53", objectName: null, cx: 788.5, cy: 712.2 },
+    { id: "v54", objectName: "Туалет 2", cx: 1169.7, cy: 546.7 },
+    { id: "v55", objectName: null, cx: 1148, cy: 712.2 },
   ],
 
   edges: [
@@ -110,7 +111,7 @@ export const graphData: GraphData = {
     { id: "v32_to_v33", from: "v32", to: "v33" },
     { id: "v32_to_v34", from: "v32", to: "v34" },
     { id: "v34_to_v35", from: "v34", to: "v35" },
-    { id: "v14_to_v36", from: "v15", to: "v16" },
+
     { id: "v36_to_v37", from: "v36", to: "v37" },
     { id: "v37_to_v53", from: "v37", to: "v53" },
     { id: "v53_to_v38", from: "v53", to: "v38" },
@@ -125,9 +126,12 @@ export const graphData: GraphData = {
     { id: "v45_to_v47", from: "v45", to: "v47" },
     { id: "v47_to_v49", from: "v47", to: "v49" },
     { id: "v47_to_v51", from: "v47", to: "v51" },
+    { id: "v47_to_v55", from: "v47", to: "v55" },
     { id: "v49_to_v48", from: "v49", to: "v48" },
     { id: "v49_to_v50", from: "v49", to: "v50" },
     { id: "v51_to_v52", from: "v51", to: "v52" },
     { id: "v52_to_v54", from: "v52", to: "v54" },
+    { id: "v55_to_v48", from: "v55", to: "v48" },
+    { id: "v34_to_v51", from: "v34", to: "v51" },
   ],
 };

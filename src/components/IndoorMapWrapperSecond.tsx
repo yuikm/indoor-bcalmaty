@@ -10,14 +10,14 @@ import {
 } from "../utils/types";
 import {
   MapBackgroundSecond,
-  Paths,
-  Positions,
+  PathsSecond,
+  PositionsSecond,
   ObjectsSecond,
 } from "./IndoorMap";
 
 import Controls from "./MapControls";
 import ObjectDetailsModal from "./Modals/ObjectDetailsModal";
-import { navigateToObject } from "@/utils/navigationHelper";
+import { navigateToObjectSecond } from "@/utils/navigationHelperSecond";
 import { toast } from "react-toastify";
 
 function IndoorMapWrapperSecond() {
@@ -50,7 +50,7 @@ function IndoorMapWrapperSecond() {
 
   function handleNavigationClick() {
     setModalOpen(false);
-    navigateToObject(object.name, navigation, setNavigation);
+    navigateToObjectSecond(object.name, navigation, setNavigation);
   }
   return (
     <div className="relative w-full h-full bg-white center">
@@ -79,9 +79,9 @@ function IndoorMapWrapperSecond() {
               }
             />
             {/*Edges are the lines on the map aka the paths*/}
-            <Paths />
+            <PathsSecond />
             {/*Vertexes are the circles on the map aka the positions*/}
-            <Positions
+            <PositionsSecond
               positionRadius={positionRadius}
               handlePositionClick={handlePositionClick}
               className={

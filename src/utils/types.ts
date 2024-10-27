@@ -1,6 +1,5 @@
-
-
 export interface ObjectItem {
+  type(name: string, type: any): void;
   id: string;
   name: string;
   desc: string;

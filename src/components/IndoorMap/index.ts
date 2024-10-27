@@ -4,3 +4,5 @@ export { default as Paths } from "./Paths";
 export { default as Positions } from "./Positions";
 export { default as Objects } from "./Objects";
 export { default as ObjectsSecond } from "./ObjectsSecond";
+export { default as PositionsSecond } from "./PositionsSecond";
+export { default as PathsSecond } from "./PathsSecond";
