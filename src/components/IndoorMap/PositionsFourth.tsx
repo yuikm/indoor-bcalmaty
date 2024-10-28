@@ -1,22 +1,22 @@
-import { graphDataSecond } from "@/store/graphDataSecond";
+import { graphDataFourth } from "@/store/graphDataFourth";
 import { NavigationContextType } from "@/utils/types";
 
-interface PositionsProps {
+interface PositionsFourthProps {
   positionRadius: number;
   handlePositionClick: (e: React.MouseEvent<SVGPathElement>) => void;
   className: string;
   navigation?: NavigationContextType["navigation"];
 }
-function PositionsSecond({
+function PositionsFourth({
   positionRadius,
   handlePositionClick,
   className,
   navigation,
-}: PositionsProps) {
+}: PositionsFourthProps) {
   const positionBackgroundColor = "#4285f4";
   const positionBackgroundRadius = positionRadius + 7;
   const positonBackgroundOpacity = 0.2;
-  const startVertex = graphDataSecond.vertices.find(
+  const startVertex = graphDataFourth.vertices.find(
     (v) => v.id === navigation?.start
   );
 
@@ -34,7 +34,7 @@ function PositionsSecond({
         opacity={positonBackgroundOpacity}
         r={positionBackgroundRadius}
       />
-      {graphDataSecond.vertices.map((vertex) => (
+      {graphDataFourth.vertices.map((vertex) => (
         <circle
           // only allow click on positions that are not referring to an object
           onClick={vertex.objectName ? () => {} : handlePositionClick}
@@ -68,4 +68,4 @@ function PositionsSecond({
   );
 }
 
-export default PositionsSecond;
+export default PositionsFourth;

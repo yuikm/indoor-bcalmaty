@@ -7,6 +7,10 @@ import DesktopRouteDetails from "./DesktopRouteDetails";
 import SearchBar from "./SearchBar";
 import IndoorMapWrapperFirst from "./IndoorMapWrapper";
 import IndoorMapWrapperSecond from "./IndoorMapWrapperSecond";
+import IndoorMapWrapperThird from "./IndoorMapWrapperThird";
+import IndoorMapWrapperFourth from "./IndoorMapWrapperFourth";
+import IndoorMapWrapperFifth from "./IndoorMapWrapperFifth";
+import IndoorMapWrapperSix from "./IndoorMapWrapperSix";
 
 function Toolbar() {
   const { navigation } = useContext(NavigationContext) as NavigationContextType;
@@ -16,6 +20,10 @@ function Toolbar() {
   const floorComponents = [
     <IndoorMapWrapperFirst />,
     <IndoorMapWrapperSecond />,
+    <IndoorMapWrapperThird />,
+    <IndoorMapWrapperFourth />,
+    <IndoorMapWrapperFifth />,
+    <IndoorMapWrapperSix />,
   ];
 
   const handleFloorChange = (event: React.ChangeEvent<HTMLSelectElement>) => {

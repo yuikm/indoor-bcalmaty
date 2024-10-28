@@ -17,7 +17,7 @@ export interface GraphData {
 export const graphData: GraphData = {
   vertices: [
     { id: "v1", objectName: null, cx: 482.1, cy: 561 },
-    { id: "v2", objectName: "Лифт 1", cx: 506.8, cy: 561 },
+    { id: "v2", objectName: "Лифт №1 1 этаж", cx: 506.8, cy: 561 },
     { id: "v3", objectName: "Охрана", cx: 384.2, cy: 607.4 },
     { id: "v4", objectName: "Тамбур", cx: 291.9, cy: 656.5 },
     { id: "v5", objectName: null, cx: 436.7, cy: 560.6 },
@@ -44,7 +44,7 @@ export const graphData: GraphData = {
     { id: "v26", objectName: "Арендатор 104", cx: 611.4, cy: 506.2 },
     { id: "v27", objectName: null, cx: 630.3, cy: 539.6 },
     { id: "v28", objectName: null, cx: 630.3, cy: 583.8 },
-    { id: "v29", objectName: "Туалет 1", cx: 611.9, cy: 583.8 },
+    { id: "v29", objectName: "Туалет №1 1 этаж", cx: 611.9, cy: 583.8 },
     { id: "v30", objectName: null, cx: 665.8, cy: 539.6 },
     { id: "v31", objectName: "Арендатор 105", cx: 665.8, cy: 556.2 },
     { id: "v32", objectName: null, cx: 880.7, cy: 539.6 },
@@ -65,11 +65,11 @@ export const graphData: GraphData = {
     { id: "v47", objectName: null, cx: 1101.3, cy: 712.2 },
     { id: "v48", objectName: "Арендатор 110", cx: 1148, cy: 728 },
     { id: "v49", objectName: null, cx: 1168.9, cy: 712.2 },
-    { id: "v50", objectName: "Лифт 2", cx: 1169.1, cy: 652.3 },
+    { id: "v50", objectName: "Лифт №2 1 этаж", cx: 1169.1, cy: 652.3 },
     { id: "v51", objectName: null, cx: 1101.3, cy: 539.6 },
     { id: "v52", objectName: null, cx: 1169.7, cy: 539.6 },
     { id: "v53", objectName: null, cx: 788.5, cy: 712.2 },
-    { id: "v54", objectName: "Туалет 2", cx: 1169.7, cy: 546.7 },
+    { id: "v54", objectName: "Туалет №2 1 этаж", cx: 1169.7, cy: 546.7 },
     { id: "v55", objectName: null, cx: 1148, cy: 712.2 },
   ],
 

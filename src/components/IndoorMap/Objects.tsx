@@ -120,25 +120,25 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
         onClick={handleObjectClick}
       />
       <path
-        id="Туалет 1"
+        id="Туалет №1 1 этаж"
         className={`${className} object`}
         d="M611.4 647.2V520.4h-45.6v126.8h45.6z"
         onClick={handleObjectClick}
       />
       <path
-        id="Лифт 1"
+        id="Лифт №1 1 этаж"
         className={`${className} object`}
         d="M569.5 598.5v-78.1h-62.7v78.1h62.7z"
         onClick={handleObjectClick}
       />
       <path
-        id="Лифт 2"
+        id="Лифт №1 1 этаж"
         className={`${className} object`}
         d="M1116.8 652.3h105.9v-47.4h-105.9v47.4z"
         onClick={handleObjectClick}
       />
       <path
-        id="Туалет 2"
+        id="Туалет №2 1 этаж"
         className={`${className} object`}
         d="M1116.8 604.9h105.9v-58.2h-105.9v58.2z"
         onClick={handleObjectClick}
