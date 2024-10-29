@@ -172,7 +172,7 @@
           <circle id="p-105" class="cls-1" cx="665.8" cy="539.6" r="6.6"/>
           <circle id="obj-105" class="cls-1" cx="665.8" cy="556.2" r="6.6"/>
           <circle id="p-107" class="cls-1" cx="880.7" cy="539.6" r="6.6"/>
-          <circle id="obj-107" class="cls-1" cx="880.7" cy="526.8" r="6.6"/>
+          /*<circle id="obj-107" class="cls-1" cx="880.7" cy="526.8" r="6.6"/>*/
           <circle id="p-108" class="cls-1" cx="1070.5" cy="539.6" r="6.6"/>
           <circle id="obj-108" class="cls-1" cx="1070.5" cy="527.7" r="6.6"/>
           <circle id="p-9" class="cls-1" cx="692.7" cy="676.3" r="6.6"/>

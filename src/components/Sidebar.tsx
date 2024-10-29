@@ -75,7 +75,7 @@ function Sidebar() {
                     key={item.id?.toString()}
                     data-product={item.name}
                     className="flex bg-[#f4faff] m-1 px-4 py-2 shadow-sm rounded-md cursor-pointer h-auto hover:bg-[#e4f2ff]"
-                    onClick={() => handleObjectNavigation(item.name)}
+                    /*onClick={() => handleObjectNavigation(item.name)}*/
                   >
                     <div className="m-1">
                       <p className="text-xs 2xl:text-sm font-semibold">

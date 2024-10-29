@@ -11,6 +11,7 @@ import IndoorMapWrapperThird from "./IndoorMapWrapperThird";
 import IndoorMapWrapperFourth from "./IndoorMapWrapperFourth";
 import IndoorMapWrapperFifth from "./IndoorMapWrapperFifth";
 import IndoorMapWrapperSix from "./IndoorMapWrapperSix";
+import IndoorMapWrapperSeven from "./IndoorMapWrapperSeven";
 
 function Toolbar() {
   const { navigation } = useContext(NavigationContext) as NavigationContextType;
@@ -24,6 +25,7 @@ function Toolbar() {
     <IndoorMapWrapperFourth />,
     <IndoorMapWrapperFifth />,
     <IndoorMapWrapperSix />,
+    <IndoorMapWrapperSeven />,
   ];
 
   const handleFloorChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
@@ -44,7 +46,7 @@ function Toolbar() {
         >
           {Array.from({ length: 7 }, (_, i) => (
             <option key={i + 1} value={i + 1}>
-              {`Floor ${i + 1}`}
+              {`Этаж ${i + 1}`}
             </option>
           ))}
         </select>
