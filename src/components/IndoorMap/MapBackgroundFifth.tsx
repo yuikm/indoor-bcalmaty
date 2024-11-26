@@ -1,4 +1,4 @@
-import floorplan from "@/assets/img/3-floor.svg";
+import floorplan from "@/assets/img/5-floor.svg";
 import { ReactNode } from "react";
 interface MapBackgroundFifthProps {
   children: ReactNode;
